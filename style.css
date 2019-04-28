@@ -1,0 +1,18 @@
+ body {
+	font-family: 'Tangerine', serif;
+	font-size: 48px;
+}
+	  
+.main-title {
+	text-align: center;
+}
+
+.cover-image {
+	width: 480px;
+	max-width: 100%;
+	height: auto;
+}
+
+.cover-image-wrapper {
+	text-align: center;
+}
