@@ -1,0 +1,40 @@
+body {
+	font-family: 'Tangerine', serif;
+	font-size: 48px;
+}
+	  
+.main-title {
+	text-align: center;
+}
+
+.cover-image {
+	width: 480px;
+	max-width: 100%;
+	height: auto;
+}
+
+.cover-image-wrapper {
+	text-align: center;
+}
+
+.gform {
+	margin-top: 5%;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(430px,1fr));
+  grid-gap: 15px;
+}
+
+.photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+.section {
+  margin-top: 5%;
+}
