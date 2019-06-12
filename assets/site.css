@@ -28,7 +28,8 @@ body {
 }
 
 .photo {
-  width: 100%;
+  width: 98%;
+  max-width:98%;
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
